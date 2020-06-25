@@ -11,7 +11,7 @@ class JokeServiceImplTest {
 
     @BeforeEach
     void setUp() {
-        jokeService = new JokeServiceImpl();
+        jokeService = new JokeServiceImpl(null);
     }
 
     @Test
